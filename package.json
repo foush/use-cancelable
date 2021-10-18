@@ -1,0 +1,42 @@
+{
+  "name": "use-cancelable",
+  "version": "1.0.0",
+  "description": "React Hook for creating a cancelable promise. Useful for avoiding state mutations after a component has unmounted",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foush/use-cancelable.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "reactjs",
+    "promise",
+    "cancel",
+    "cancelable",
+    "cancellable"
+  ],
+  "author": "John Foushee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foush/use-cancelable/issues"
+  },
+  "homepage": "https://github.com/foush/use-cancelable#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.30",
+    "prettier": "^2.4.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  },
+  "files": ["lib/**/*"]
+}
